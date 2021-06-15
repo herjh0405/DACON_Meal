@@ -33,11 +33,11 @@ train : 2016-02-01 ~ 2021-01-26 / test : 2021-01-27 ~ 2021-04-19 경상남도 �
 
     * 강수형태 : 없음(0), 비(1), 비/눈(2), 눈(3), 소나기(4), 빗방울(5), 빗방울/눈날림(6), 눈날림(7) → 비/눈은 비와 눈이 섞여 오는 것을 의미 (진눈개비) [repo](http://www.riss.kr/search/detail/DetailView.do?p_mat_type=be54d9b8bc7cdb09&control_no=b50f3c1b6f3af86cffe0bdc3ef48d419)
 
-      ![image-20210615151529085](img/image-20210615151529085.png)
+      ![image](https://user-images.githubusercontent.com/54921730/122006828-4480bf00-cdf2-11eb-8810-72a9b1e42a1e.png)
 
     * 불쾌지수 = 1.8x기온 - 0.55x(1-습도)x(1.8x기온-26)+32 [ref](https://www.kma.go.kr/HELP/basic/help_01_05.jsp)
 
-      ![image-20210615151349873](img/image-20210615151349873.png)
+      ![image](https://user-images.githubusercontent.com/54921730/122006864-506c8100-cdf2-11eb-9da5-3c4d88b10df3.png)
 
 * 미세먼지 데이터 [2016-2020](http://www.airkorea.or.kr/web/pastSearch?pMENU_NO=123) [2021](http://www.airkorea.or.kr/web/realSearch?pMENU_NO=97) (경남 진주시 동진로 279 (한국전력공사 진주지점))
 
@@ -45,9 +45,7 @@ train : 2016-02-01 ~ 2021-01-26 / test : 2021-01-27 ~ 2021-04-19 경상남도 �
   * 결측치는 가장 가까운 다른 지점 관측치로 대체
   * 아래의 기준에 따라 명목변수로 분류
 
-  ![image-20210615150003992](img/image-20210615150003992.png)
-
-  ![image-20210615150031974](img/image-20210615150031974.png)
+  ![image](https://user-images.githubusercontent.com/54921730/122006917-5eba9d00-cdf2-11eb-983d-9dec5bd6a4de.png)
 
 * 휴일(공휴일/대체공휴일) 데이터 [link](https://www.data.go.kr/data/15012690/openapi.do)
 
@@ -62,3 +60,8 @@ train : 2016-02-01 ~ 2021-01-26 / test : 2021-01-27 ~ 2021-04-19 경상남도 �
 [머신러닝을 이용한 단체급식 다중코너 식수 예측 모델 연구(2021)](http://www.riss.kr/search/detail/DetailView.do?p_mat_type=be54d9b8bc7cdb09&control_no=b50f3c1b6f3af86cffe0bdc3ef48d419)
 
 [기계학습방법을 활용한 대형 집단급식소의 식수 예측(2019)](http://koreascience.or.kr/article/JAKO201912261946958.pdf)
+
+ 
+
+
+
